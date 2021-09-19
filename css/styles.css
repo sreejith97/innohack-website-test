@@ -11677,14 +11677,128 @@ padding: 40px 0;
 
 
 
+/* prizes */
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 17rem);
+  gap: 2rem;
+  justify-content: center;
+}
+.prize-card {
+  position: relative;
+  background-color: #1e1e1e;
+  overflow-y: hidden;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  min-height: 300px;
+}
+
+.card-front h1 {
+  color: #fff;
+  margin: 0;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.prize-card h5 {
+  margin: 0;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 1rem;
+  transform: translate3d(0, -100%, 0);
+  transition: transform 300ms;
+}
+.prize-card a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.prize-card a:hover ~ .card-overlay,
+.prize-card a:focus ~ .card-overlay {
+  transform: translate3d(0, 0, 0);
+}
+.prize-card a:hover ~ .card-overlay h5,
+.prize-card a:focus ~ .card-overlay h5 {
+  transform: translate3d(0, 0, 0);
+  color: #1e1e1e;
+}
+.prize-card a:hover ~ .card-overlay .card-body,
+.prize-card a:focus ~ .card-overlay .card-body {
+  opacity: 1;
+}
+
+.card-front-wrap {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-front {
+  margin-bottom: 20px;
+}
+
+.card-footer {
+  margin-top: auto;
+  color: #fff;
+}
+
+.card-footer p {
+  font-size: 12px;
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+.card-footer i {
+  margin-right: 10px;
+}
+
+.card-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  transition: transform 300ms;
+  background-color: #e5bc73;
+  transform: translate3d(0, 100%, 0);
+}
+.prize-card-body {
+  flex-grow: 1;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 500ms 100ms;
+}
+.prize-card-body p {
+  margin: 0;
+}
+
+.register-button {
+  display: inline-block;
+  padding: 4px 8px;
+  border: 2px solid #1e1e1e;
+  border-radius: 2px;
+  color: #1e1e1e;
+  margin-top: 20px;
+}
+
+
+
+
+/* /prizes */
+
 
 /* /timeline */
 
 
-
-
-/* test */
-
-
-
-/* test */
