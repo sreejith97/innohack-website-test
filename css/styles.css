@@ -11423,9 +11423,9 @@ padding: 40px 0;
 .my-card-container .my-card:hover .my-box{
 
 
-  transform: translateY(-50px);
+  /* transform: translateY(-50px); */
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-  background: linear-gradient(45deg, #1237ad, #2c56aa);
+  background: linear-gradient(45deg, #364c96, #5f8be4);
 }
 
 
