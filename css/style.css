@@ -586,3 +586,55 @@ logo-slider:after {
   object-position: center right;
   margin-bottom: 20px;
 }
+
+
+
+
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(50px) scale(.8);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+@keyframes letftoright {
+  0% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
+
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
