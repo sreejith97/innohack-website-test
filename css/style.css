@@ -545,3 +545,44 @@ logo-slider:after {
     transform: translateX(-80%);
   }
 }
+
+
+
+
+.section-heading h1{
+
+
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+  .themes-row{
+
+    padding: 0 6% 0 6% !important;
+  }
+
+
+}
+
+
+
+
+.image--cover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center right;
+  margin-bottom: 20px;
+}
