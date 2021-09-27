@@ -267,14 +267,15 @@ button {
   }
   .timeline > li .timeline-image {
     left: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: -50px;
+    width: 95px;
+    height: 95px;
+    margin-left: -49px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 13px;
     line-height: 18px;
-    margin-top: 16px;
+    margin-top: 14%;
+
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -290,12 +291,12 @@ button {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 115px;
-    height: 115px;
-    margin-left: -59px;
+    width: 100px;
+    height: 100px;
+    margin-left: -52px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 26px;
     margin-top: 14%;
   }
@@ -305,7 +306,7 @@ button {
 
 
   .timeline:before {
-    bottom: 40px;
+    bottom: 76px;
 }
 
 
@@ -318,9 +319,9 @@ button {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 125px;
-    height: 125px;
-    margin-left: -65px;
+    width: 105px;
+    height: 105px;
+    margin-left: -54px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     margin-top: 14%;
@@ -332,7 +333,7 @@ button {
 
   
   .timeline:before {
-    bottom: 45px;
+    bottom: 75px;
 }
 }
 
