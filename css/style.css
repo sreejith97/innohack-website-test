@@ -654,3 +654,21 @@ logo-slider:after {
   transform: translateY(0px);
   opacity: 1;
 }
+
+
+
+.heading-brand{
+
+  display: flex; 
+   align-items: center; 
+   justify-content: start; 
+   color: white;
+
+}
+
+
+.heading-brand h6{
+  /* margin-left: -2px; */
+  font-weight: 50px;
+
+}
