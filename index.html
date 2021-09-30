@@ -18,6 +18,8 @@
 
         <script>(function(w, d) { w.CollectId = "6150b161e3ebf6511abde474"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 
+
+
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
@@ -28,18 +30,19 @@
                     <div class="heading-brand" style="display: flex;  align-items: center; justify-content: start; color: white;">
                         <a class="navbar-brand" style="margin-right: 0px !important;" href="index.html"><img width="75px" height="45px" src="./assets/norml (1).png" alt=""></a>
 
-                    <h3 style="margin-top: 9px;">Inohack</h3>
+                    <h3>Inohack</h3>
                     </div>
                     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li  class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#themes">Themes</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#prizes">Prizes</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about-nav">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#themes-nav">Themes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#timeline-nav">Timeline</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#prizes-nav">Prizes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#partners-nav">Partners</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#footer-nav">Contact</a></li>
 
 
 <!-- 
@@ -61,8 +64,6 @@
                             </li>
  -->
 
-
-
                         </ul>
                     </div>
                 </div>
@@ -75,10 +76,10 @@
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-6 fw-bolder text-white mb-2 " style="animation: letftoright 1.5s ease-in-out forwards;" >Unravel the new dimensions</h1>
                                 <p class="small-text-size fw-normal text-white-50 " style="animation: letftoright 1.5s  ease-in-out forwards;">Inohack is a global is a two-day virtual hackathon rooted with intention and determination to solve the real-world problems/challenges within the time frame.</p>
-                               
+                                <a style="width: 200px; animation: letftoright 1.5s ease-in-out forwards;" class="btn btn-primary btn-lg px-4 me-sm-3 "  href="#features">Register</a> 
 
 
-                                <section class="coming-soon" style="animation: letftoright 1.5s ease-in-out forwards;">
+                                <section class="coming-soon " style="animation: letftoright 1.5s ease-in-out forwards;">
                                     <div>
                                         <!-- <h2>Coming soon</h2> -->
                                         <div  class="countdown">
@@ -114,10 +115,10 @@
 
                                         </div>
                                         
-                                        <div style="display: flex; align-items: center; justify-content: center;">
+                                        <!-- <div style="display: flex; align-items: center; justify-content: center;">
                                     <a style="width: 250px;" class="btn btn-primary btn-lg px-4 me-sm-3 mt-5"  href="#features">Register</a> 
     
-                                        </div>
+                                        </div> -->
                                         
                                     </div>
                             
@@ -129,8 +130,8 @@
 
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 order-md-1 d-xl-block d-none text-center">
-                            <div class="home-back-img" style=" animation: slideIn 1.5s ease-in-out forwards; background: linear-gradient(90deg, rgb(37, 97, 146) 0%, rgb(34, 91, 141) 35%, rgb(23, 86, 138) 100%); clip-path: circle(48.6% at 50% 50%); height: 35rem; width: 35rem; "><img class="img-fluid rounded-3 my-5" style="margin-left: 10px; width: 90%; height: 90%;" src="./assets/home-illustration.svg" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 order-md-1 d-xl-block d-none text-center" >
+                            <div class="home-svg-cont" style=" animation: slideIn 1.5s ease-in-out forwards; background: linear-gradient(90deg, rgb(37, 97, 146) 0%, rgb(34, 91, 141) 35%, rgb(23, 86, 138) 100%); clip-path: circle(48.6% at 50% 50%); "><img class="img-fluid rounded-3 my-5" style="margin-left: 10px; width: 90%; height: 90%;" src="./assets/home-illustration.svg" alt="..." /></div>
                         </div>
                     </div>
                 </div>
@@ -140,69 +141,71 @@
 
             <!-- About  -->
 
-            <section id="about" class="py-5 reveal">
-                <div style="padding: 0 2rem 0 2rem !important;" class="container px-5 my-5">
-                    <!-- <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-8 col-xl-6">
-                            <div class="text-center">
-                                <h2 class="fw-bolder">About Hackathon</h2>
-                                <p class="fs-5 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.</p>    
+            <div id="about-nav">
+                <section id="about" class="py-5 reveal">
+                    <div style="padding: 0 2rem 0 2rem !important;" class="container px-5 my-5">
+                        <!-- <div class="row gx-5 justify-content-center">
+                            <div class="col-lg-8 col-xl-6">
+                                <div class="text-center">
+                                    <h2 class="fw-bolder">About Hackathon</h2>
+                                    <p class="fs-5 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.</p>    
+                                </div>
                             </div>
-                        </div>
-                    </div> -->
-
-                    <div class="row justify-content-center">
-
-                        <h2 class="fw-bolder d-flex justify-content-center hack-heading " >About Hackathon</h2>
-                        <p style="text-align: center;" class="fs-5 mb-4 ">Inohack is an international Indo-Germanic hackathon initiated by two esteemed institutions namely, SRH University Heidelberg and Amal Jyothi College of Engineering. The 48-hours long live event will be conducted in three gripping phases. The expected participants of the event are proficient computer programmers, software developers, graphic designers, domain experts, tech and startup enthusiasts.</p>    
-                            
-                    </div>
-
-                    
-                    
-<section>
-
-
-    <div class="my-card-container ">
-        <div class="my-card">
-            <div class="my-box">
-                <div class="card-content">
-                    <!-- <h2>01</h2> -->
-                    <h3>Team</h3>
-                    <p>The teams will compete against each other and time to showcase the best solutions by daunting the programming skills and win huge prizes.</p>
-                    <!-- <a href="#">Read More</a> -->
-                </div>
-            </div>
-        </div>
-
-        <div class="my-card">
-            <div class="my-box">
-                <div class="card-content">
-                    <!-- <h2>02</h2> -->
-                    <h3>Model</h3>
-                    <p>Coordinate with your team and build your project at the comfort of your own place. No need to visit the centre.</p>
-                    <!-- <a href="#">Read More</a> -->
-                </div>
-            </div>
-        </div>
-
-        <div class="my-card">
-            <div class="my-box">
-                <div class="card-content">
-                    <!-- <h2>03</h2> -->
-                    <h3>International level</h3>
-                    <p>The participants will be from all over the nation and we see the best minds of the nation who would explore software solutions to various problems.</p>
-                    <!-- <a href="#">Read More</a> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
+                        </div> -->
     
-</section>
-                    
+                        <div class="row justify-content-center">
+    
+                            <h2 class="fw-bolder d-flex justify-content-center hack-heading " >About Hackathon</h2>
+                            <p style="text-align: center;" class="fs-5 mb-4 ">Inohack is an international Indo-Germanic hackathon initiated by two esteemed institutions namely, SRH University Heidelberg and Amal Jyothi College of Engineering. The 48-hours long live event will be conducted in three gripping phases. The expected participants of the event are proficient computer programmers, software developers, graphic designers, domain experts, tech and startup enthusiasts.</p>    
+                                
+                        </div>
+    
+                        
+                        
+    <section>
+    
+    
+        <div class="my-card-container ">
+            <div class="my-card">
+                <div class="my-box">
+                    <div class="card-content">
+                        <!-- <h2>01</h2> -->
+                        <h3>Team</h3>
+                        <p>The teams will compete against each other and time to showcase the best solutions by daunting the programming skills and win huge prizes.</p>
+                        <!-- <a href="#">Read More</a> -->
+                    </div>
                 </div>
-            </section>
+            </div>
+    
+            <div class="my-card">
+                <div class="my-box">
+                    <div class="card-content">
+                        <!-- <h2>02</h2> -->
+                        <h3>Model</h3>
+                        <p>Coordinate with your team and build your project at the comfort of your own place. No need to visit the centre.</p>
+                        <!-- <a href="#">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="my-card">
+                <div class="my-box">
+                    <div class="card-content">
+                        <!-- <h2>03</h2> -->
+                        <h3>International level</h3>
+                        <p>The participants will be from all over the nation and we see the best minds of the nation who would explore software solutions to various problems.</p>
+                        <!-- <a href="#">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+    </section>
+                        
+                    </div>
+                </section>
+            </div>
 
             <!-- themes -->
 
@@ -214,68 +217,66 @@
                     
             </div> -->
 
+            <div id="themes-nav" >
+                <section id="themes" class="py-5 reveal">
 
-
-            <section id="themes" class="py-5">
-
-               
-
-                <div class="container reveal">
-
-                    <div class="row justify-content-center">
-
-                        <h2 class="fw-bolder d-flex  mb-5 justify-content-center hack-heading " >Problem Statements</h2> 
+                    <div class="text-center">
+                        <h2 class="fw-bolder d-flex justify-content-center hack-heading" >About Hackathon</h2>
+    
                     </div>
-
-
-                    <div class="row  align-items-center">
-                        <div class="col-lg-6 order-first order-lg-last themes-row"><img class="img-fluid rounded mb-5 mb-lg-0" src="./assets/problemstatement-background2.svg" alt="..." /></div>
-                        <div class="col-lg-6">
-                            <div class="mb-2">
-                                <div class="card-body">
-                                    <div class="d-flex">
-                                        <img height="50px" width="50px" style="margin-top: 15px;" src="./assets/smart-farming (1).png"/>
-                                        <div class="ms-4">
-                                            <h4>Agritech</h4>
-                                            <p class="mb-1">Seeking effective solutions for the major challenges faced in agriculture/farming, the agricultural governance sector, as well as the youth’s participation in agriculture and farming.</p>
+    
+                    
+    
+                    <div class="container ">
+                        <div class="row  align-items-center">
+                            <div class="col-lg-6 order-first order-lg-last themes-row"><img class="img-fluid rounded mb-5 mb-lg-0" src="./assets/problemstatement-background2.svg" alt="..." /></div>
+                            <div class="col-lg-6">
+                                <div class="mb-2">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <img height="50px" width="50px" style="margin-top: 15px;" src="./assets/smart-farming (1).png"/>
+                                            <div class="ms-4">
+                                                <h4>Agritech</h4>
+                                                <p class="mb-1">Seeking effective solutions for the major challenges faced in agriculture/farming, the agricultural governance sector, as well as the youth’s participation in agriculture and farming.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="mb-2">
-                                <div class="card-body">
-                                    <div class="d-flex">
-                                        <img height="50px" width="50px" style="margin-top: 15px;" src="./assets/conveyor.png"/>
-
-                                        <div class="ms-4">
-                                            <h4>Foodtech</h4>
-
-                                            <p class="mb-1">Develop new solutions that supports  food technology sectors like supply chain management,  quality check etc.</p>
+                                
+                                <div class="mb-2">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <img height="50px" width="50px" style="margin-top: 15px;" src="./assets/conveyor.png"/>
+    
+                                            <div class="ms-4">
+                                                <h4>Foodtech</h4>
+    
+                                                <p class="mb-1">Develop new solutions that supports  food technology sectors like supply chain management,  quality check etc.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-
-                            <div class="mb-2">
-                                <div class="card-body">
-                                    <div class="d-flex">
-                                        <img height="50px" width="50px" style="margin-top: 15px;" src="./assets/healthcare.png"/>
-                                        <div class="ms-4">
-                                            <h4>Healthcare</h4>
-                                            <p class="mb-1">Develop an innovative solution that resolves the problems faced by the health sectors, especially in case of consultations, vital parameter collection,  data analysis, disease predictions, etc.</p>
+    
+    
+                                <div class="mb-2">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <img height="50px" width="50px" style="margin-top: 15px;" src="./assets/healthcare.png"/>
+                                            <div class="ms-4">
+                                                <h4>Healthcare</h4>
+                                                <p class="mb-1">Develop an innovative solution that resolves the problems faced by the health sectors, especially in case of consultations, vital parameter collection,  data analysis, disease predictions, etc.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+    
+    
+    
                             </div>
-
-
-
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
 
 
             
@@ -346,13 +347,17 @@
 
  -->
 
-
+            <section id="timeline-nav">
+                
 
  <section class="page-section" id="">
     <div class="container">
-        <div class="row justify-content-center">
-            <h2 class="fw-bolder d-flex  mb-5 justify-content-center hack-heading " >Timeline</h2> 
+        <div class="text-center mb-2">
+            <h2 class="fw-bolder d-flex justify-content-center mb-5 hack-heading " >Timeline</h2>
+
         </div>
+
+        
         <ul class="timeline">
             <li >
                 <div class="timeline-image"><img  class=" prize-image-1 img-fluid" src="./assets/timeline-registation-start.png" alt="..." /></div>
@@ -425,6 +430,7 @@
         </ul>
     </div>
 </section>
+            </section>
 
 
 
@@ -442,37 +448,43 @@
 
 
 
-            <section id="prizes" class="py-5 bg-light">
-                <div class="container px-5 my-5">
-                    <div class="text-center pb-5">
-                        <h2 class="fw-bolder hack-heading">Prizes</h2>
-                        <!-- <p class="lead fw-normal text-muted mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text </p> -->
+            <section id="prizes-nav">
+                <section id="prizes" class="py-5 bg-light">
+                    <div class="container px-5 my-5">
+                        <div class="text-center mb-2">
+                            <h2 class="fw-bolder d-flex justify-content-center mb-5 hack-heading " >Prizes</h2>
+                
+                        </div>
+                        <!-- <div class="text-center pb-5">
+                            <h2 class="fw-bolder"></h2>
+                            <p class="lead fw-normal text-muted mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text </p>
+                        </div> -->
+                        <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+                            <div class="col mb-5 mb-5 mb-xl-0">
+                                <div class="text-center">
+                                    <img height="40px !important" class="img-fluid prize-image  mb-4 px-4" src="./assets/prize-first.svg" alt="..." />
+                                    <h5 class="fw-bolder">First</h5>
+                                    <div class="fst-italic text-muted">50k Cash prize</div>
+                                </div>
+                            </div>
+                            
+                            <div class="col mb-5 mb-5 mb-sm-0">
+                                <div class="text-center">
+                                    <img class="img-fluid prize-image  mb-4 px-4" src="./assets/prize-second.svg" alt="..." />
+                                    <h5 class="fw-bolder">Second</h5>
+                                    <div class="fst-italic text-muted">30k Cash prize</div>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <div class="text-center">
+                                    <img class="img-fluid prize-image  mb-4 px-4" src="./assets/prize-third.svg" alt="..." />
+                                    <h5 class="fw-bolder">Third</h5>
+                                    <div class="fst-italic text-muted">20k Cash prize</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                        <div class="col mb-5 mb-5 mb-xl-0">
-                            <div class="text-center">
-                                <img height="40px !important" class="img-fluid prize-image  mb-4 px-4" src="./assets/prize-first.svg" alt="..." />
-                                <h5 class="fw-bolder">First</h5>
-                                <div class="fst-italic text-muted">50k Cash prize</div>
-                            </div>
-                        </div>
-                        
-                        <div class="col mb-5 mb-5 mb-sm-0">
-                            <div class="text-center">
-                                <img class="img-fluid prize-image  mb-4 px-4" src="./assets/prize-second.svg" alt="..." />
-                                <h5 class="fw-bolder">Second</h5>
-                                <div class="fst-italic text-muted">30k Cash prize</div>
-                            </div>
-                        </div>
-                        <div class="col mb-5">
-                            <div class="text-center">
-                                <img class="img-fluid prize-image  mb-4 px-4" src="./assets/prize-third.svg" alt="..." />
-                                <h5 class="fw-bolder">Third</h5>
-                                <div class="fst-italic text-muted">20k Cash prize</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </section>
             </section>
 
 
@@ -488,7 +500,10 @@
             <div class="testimonials text-center">
 
                 <div class="container">
-                  <h2 class="hack-heading">Testimonials</h2>
+                    <div class="text-center mb-2">
+                        <h2 class="fw-bolder d-flex justify-content-center mb-5 hack-heading " >Testimonials</h2>
+            
+                    </div>
                   <div class="row">
                     <div class="col-md-6 col-lg-4">
                       <div class="card border-light bg-light text-center">
@@ -540,39 +555,47 @@
 
 
             <!-- Clients-->
-        <div id="partners" class="py-5" style="background-color: white;  ">
-            <div class="text-center">
-                <h2 class="fw-bolder hack-heading">Sponsers</h2>
-            </div>
-            <div class="container" >
-                <div style="display: flex; justify-content: center; align-items: center; flex-wrap:wrap" class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto"  src="./assets/mh3.png" alt="..." /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/BIRAC Logo.png" alt="..." /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/internhublogo.png" alt="..." /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/KDISC.png" alt="..." /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/ksum_logo1.png" alt="..." /></a>
-                    </div>
+            <section id="prizes-nav">
 
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/NSTEDB.png" alt="..." /></a>
-                    </div>
+                <div id="partners" class="py-5" style="background-color: aliceblue;" >
+            
 
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/sv logo hq.png" alt="..." /></a>
+                    <div class="text-center mb-2">
+                        <h2 class="fw-bolder d-flex justify-content-center mb-5 hack-heading" >Sponsers</h2>
+            
                     </div>
-
+                    
+                    <div class="container" >
+                        <div style="display: flex; justify-content: center; align-items: center; flex-wrap:wrap" class="row align-items-center">
+                            <div class="col-md-3 col-sm-6 my-3">
+                                <a href="#!"><img class="img-fluid img-brand d-block mx-auto"  src="./assets/mh3.png" alt="..." /></a>
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3">
+                                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/BIRAC Logo.png" alt="..." /></a>
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3">
+                                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/internhublogo.png" alt="..." /></a>
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3">
+                                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/KDISC.png" alt="..." /></a>
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3">
+                                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/ksum_logo1.png" alt="..." /></a>
+                            </div>
+        
+                            <div class="col-md-3 col-sm-6 my-3">
+                                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/NSTEDB.png" alt="..." /></a>
+                            </div>
+        
+                            <div class="col-md-3 col-sm-6 my-3">
+                                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/sv logo hq.png" alt="..." /></a>
+                            </div>
+        
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        
 
          
             <!-- branding -->

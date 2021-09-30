@@ -1,6 +1,5 @@
 
-
-
+/* coming soon  */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
@@ -17,9 +16,6 @@ p{
 .hack-heading{
   font-family: 'Montserrat', sans-serif !important;
 }
-
-/* coming soon  */
-
 
 
 button {
@@ -688,17 +684,12 @@ logo-slider:after {
 
 .heading-brand h3{
   /* margin-left: -2px; */
-  font-size: 1.5rem;
   font-weight: 600;
+  font-size: 1.5rem;
   margin-left: -.5rem;
+  margin-top: 9px;
 
 }
-
-
-
-
-
-
 
 
 
@@ -706,29 +697,49 @@ logo-slider:after {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-} 
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  
+ 
 
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-  .home-back-img{
-
-    height: 40rem !important;
-    width: 40rem !important;
+  .home-svg-cont{
+    width: 30rem !important;
+    height: 30rem !important;
   }
-  
+
 }
+@media only screen and (min-width: 1300px) {
+
+  .home-svg-cont{
+    width: 35rem !important;
+    height: 35rem !important;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+  .home-svg-cont{
+    width: 40rem !important;
+    height: 40rem !important;
+  }
+
+}
+
